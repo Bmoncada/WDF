@@ -2,7 +2,7 @@
 
 <rss version="2.0">
 	<channel>
-		<title>The Best (maybe) Films, ever<h1>
+		<title>The Best (maybe) Films, ever</title>
 		<link></link>
 		<description>If you want to read reviews about pointless facts about things that sort of has nothing to do with the film or if you just want to waste your own time then check this out...or not.</description>
 		
@@ -29,7 +29,7 @@
 			<link></link>
 			<description>I loved the first three Sam Reimi (is that right) Spiderman films, no wait, scratch that, I love the first two, I laughed at the third one.</description>
 		</item>	 	
-					
+	</channel>				
 </rss>		
 				
 		
