@@ -16,42 +16,49 @@
 			
 			<form>
 				<p>First Name<br />
-				<input type="text" name="first_name" />
+					<input type="text" name="first_name" />
 				</p>
 				
 				<p>Last Name<br />
-				<input type="text" name="last_name" />
+					<input type="text" name="last_name" />
 				</p>
 				
 				<p>Gender (You better know this).<br />
-				<input type="radio" name="gender" value="Male" checked="checked" />Male
-				<input type="radio" name="gender" value="Female" />Female
+					<input type="radio" name="gender" value="Male" checked="checked" id="Male" /><label for="Male">Male</label>
+					<input type="radio" name="gender" value="Female" />Female
 				</p>
 				
 				<p>Availability (When are you able to work).<br />
-				<input type="checkbox" name="date_and_time" value="everyday" /><label for="everyday">Everyday</label><br />
-				<input type="checkbox" name="date_and_time" value="all the time" />All the time<br />
-				<input type="checkbox" name="date_and_time" value="whenever" />Whenever<br />
-				<input type="checkbox" name="date_and_time" value="no_life" />I have no life<br />
-				<input type="checkbox" name="date_and_time" value="love_table" />I love Sur La Table<br />
-				<input type="checkbox" name="date_and_time" value="control" />Control Me<br />
-				<input type="checkbox" name="date_and_time" value="everyday" />Everyday<br />
+					<input type="checkbox" name="date_and_time" value="everyday" id="everyday" />
+					<label for="everyday">Everyday</label><br />
+					<input type="checkbox" name="date_and_time" value="all the time" id="All the time" />
+					<label for="All the time">All the time</label><br />
+					<input type="checkbox" name="date_and_time" value="whenever" id="Whenever" />
+					<label for="Whenever">Whenever</label><br />
+					<input type="checkbox" name="date_and_time" value="no_life" id="I have no life" />
+					<label for="I have no life">I have no life</label><br />
+					<input type="checkbox" name="date_and_time" value="love_table" id="I love Sur la Table" />
+					<label for="I love Sur La Table">I love Sur La Table</label><br />
+					<input type="checkbox" name="date_and_time" value="control" id="Control Me" />
+					<label for="Control Me">Control Me</label><br />
+					<input type="checkbox" name="date_and_time" value="everyday" id="Everday" />
+					<label for="Everyday">Everyday</label><br />
 				</p>
 				
 				<p>Tell us everything about yourself.<br />
-				<textarea name="bio_info" rows="10" cols="30">...and I mean "everything"...</textarea>
+					<textarea name="bio_info" rows="10" cols="30">...and I mean "everything"...</textarea>
 				</p>
 				
 				<p>Lastly, What would be your preferred mental tortur- uh, relaxation method.<br /> 
-				<select name="relax">
-					<option>Strapped to a chair</option>
-					<option>Getting calmly yelled at</option>
-					<option>Ruthlessly getting tickled</option>
-				</select>
+					<select name="relax">
+						<option>Strapped to a chair</option>
+						<option>Getting calmly yelled at</option>
+						<option>Ruthlessly getting tickled</option>
+					</select>
 				</p>
 				
 				<p>Your Done<br />
-				<input type="submit" name="send" />
+					<input type="submit" name="send" />
 				</p>
 			</form>	
 	
