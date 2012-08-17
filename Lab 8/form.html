@@ -15,22 +15,26 @@
 			<h2>Let's get started</h2>
 			
 			<form>
-			
 				<fieldset>
-					<legend><label for="first_name">First Name</label><br /></legend>
+					<legend>First &amp; Last Name</legend>				
+						<p><label for="first_name">First Name</label><br />
 						<input type="text" name="first_name" id="first_name" />
+						</p>
 					
-					<legend><label for="last_name">Last Name</label><br /></legend>
+						<p><label for="last_name">Last Name</label><br />
 						<input type="text" name="last_name" id="last_name" />
+						</p>	
 				</fieldset>
 				
-				<p>Gender (You better know this).<br />
-					<input type="radio" name="gender" value="Male" checked="checked" id="Male" /><label for="Male">Male</label>
-					<input type="radio" name="gender" value="Female" id="Female" /><label for="Female">Female</label>
-				</p>
+				<fieldset>
+					<legend>Gender (You better know this).</legend>
+						<p><input type="radio" name="gender" value="Male" checked="checked" id="Male" /><label for="Male">Male</label>
+						<input type="radio" name="gender" value="Female" id="Female" /><label for="Female">Female</label>
+						</p>
+				</fieldset>
 				
 				<fieldset>
-					<legend>Availability (When are you able to work).<br /></legend>
+					<legend>Availability (When are you able to work).</legend>
 						<input type="checkbox" name="date_and_time" value="everyday" id="everyday" />
 						<label for="everyday">Everyday</label><br />
 						<input type="checkbox" name="date_and_time" value="all the time" id="all_the_time" />
@@ -45,17 +49,22 @@
 						<label for="control_me">Control Me</label><br />
 				</fieldset>
 				
-				<p><label for="textarea">Tell us everything about yourself.</label><br />
-					<textarea name="bio_info" rows="10" cols="30" id="textarea">...and I mean "everything"...</textarea>
-				</p>
+				<fieldset>
+					<legend>Tell us more about you</legend>
+						<p><label for="textarea">Tell us everything about yourself.</label><br />
+							<textarea name="bio_info" rows="10" cols="30" id="textarea">...and I mean "everything"...</textarea>
+						</p>
+				</fieldset>
 				
-				<p><label for="select">Lastly, What would be your preferred mental tortur- uh, relaxation method.</label><br /> 
-					<select name="relax" id="select">
-						<option>Strapped to a chair</option>
-						<option>Getting calmly yelled at</option>
-						<option>Ruthlessly getting tickled</option>
-					</select>
-				</p>
+				<fieldset>
+					<legend>Almost Done...</legend>
+						<p><label for="select">Lastly, What would be your preferred mental tortur- uh, relaxation method.</label><br /> 
+						<select name="relax" id="select">
+							<option>Strapped to a chair</option>
+							<option>Getting calmly yelled at</option>
+							<option>Ruthlessly getting tickled</option>
+						</select>
+					</p>
 				
 				<p>Your Done<br />
 					<input type="submit" name="send" />
