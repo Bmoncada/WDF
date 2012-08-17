@@ -15,33 +15,35 @@
 			<h2>Let's get started</h2>
 			
 			<form>
-				<p><label for="first_name">First Name</label><br />
-					<input type="text" name="first_name" id="first_name" />
-				</p>
-				
-				<p><label for="last_name">Last Name</label><br />
-					<input type="text" name="last_name" id="last_name" />
-				</p>
+			
+				<fieldset>
+					<legend><label for="first_name">First Name</label><br /></legend>
+						<input type="text" name="first_name" id="first_name" />
+					
+					<legend><label for="last_name">Last Name</label><br /></legend>
+						<input type="text" name="last_name" id="last_name" />
+				</fieldset>
 				
 				<p>Gender (You better know this).<br />
 					<input type="radio" name="gender" value="Male" checked="checked" id="Male" /><label for="Male">Male</label>
 					<input type="radio" name="gender" value="Female" id="Female" /><label for="Female">Female</label>
 				</p>
 				
-				<p>Availability (When are you able to work).<br />
-					<input type="checkbox" name="date_and_time" value="everyday" id="everyday" />
-					<label for="everyday">Everyday</label><br />
-					<input type="checkbox" name="date_and_time" value="all the time" id="all_the_time" />
-					<label for="all_the_time">All the time</label><br />
-					<input type="checkbox" name="date_and_time" value="whenever" id="whenever" />
-					<label for="whenever">Whenever</label><br />
-					<input type="checkbox" name="date_and_time" value="no_life" id="i_have_no_life" />
-					<label for="i_have_no_life">I have no life</label><br />
-					<input type="checkbox" name="date_and_time" value="love_table" id="i_love_sur_la_table" />
-					<label for="i_love_sur_la_table">I love Sur La Table</label><br />
-					<input type="checkbox" name="date_and_time" value="control" id="control_me" />
-					<label for="control_me">Control Me</label><br />
-				</p>
+				<fieldset>
+					<legend>Availability (When are you able to work).<br /></legend>
+						<input type="checkbox" name="date_and_time" value="everyday" id="everyday" />
+						<label for="everyday">Everyday</label><br />
+						<input type="checkbox" name="date_and_time" value="all the time" id="all_the_time" />
+						<label for="all_the_time">All the time</label><br />
+						<input type="checkbox" name="date_and_time" value="whenever" id="whenever" />
+						<label for="whenever">Whenever</label><br />
+						<input type="checkbox" name="date_and_time" value="no_life" id="i_have_no_life" />
+						<label for="i_have_no_life">I have no life</label><br />
+						<input type="checkbox" name="date_and_time" value="love_table" id="i_love_sur_la_table" />
+						<label for="i_love_sur_la_table">I love Sur La Table</label><br />
+						<input type="checkbox" name="date_and_time" value="control" id="control_me" />
+						<label for="control_me">Control Me</label><br />
+				</fieldset>
 				
 				<p><label for="textarea">Tell us everything about yourself.</label><br />
 					<textarea name="bio_info" rows="10" cols="30" id="textarea">...and I mean "everything"...</textarea>
